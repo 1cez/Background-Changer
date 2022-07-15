@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    transition: 0.3s ease;
+}
+.change-btn{
+    font-family:'Courier New', Courier, monospace;
+    background-color: black;
+    border: 0;
+    font-size: 1.4rem;  
+    color: white;
+    padding: 10px 35px;
+}
+.change-btn:active{
+    transform: scale(0.75);
+}
+.change-btn:focus{
+    background-color: rgb(255, 0, 0);
+}
+.color-text{
+    font-size: 1rem;
+    font-weight: bold;
+}
